@@ -1,0 +1,18 @@
+@import url(common.css);
+
+.banner {
+  width: 40%;
+  height: 50%;
+  flex-direction: column;
+  gap: 1rem;
+  margin: auto;
+  background-color: rgb(0 0 0 / 61%);
+}
+
+.banner h2 {
+  color: var(--white);
+  font-size: 4rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-bottom: 2px solid var(--primary-color);
+}

@@ -1,0 +1,11 @@
+@import url(common.css);
+
+.service-card {
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.icon {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+}

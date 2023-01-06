@@ -1,0 +1,28 @@
+@import url(common.css);
+
+.services-section {
+  background-color: rgb(203, 203, 203);
+}
+
+.services-div {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-section h2 {
+  text-align: center;
+  width: 20%;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  padding-top: 3rem;
+  font-weight: 600;
+  border-bottom: 5px solid var(--primary-color);
+}
+
+.services-cont {
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+  height: 50vh;
+}

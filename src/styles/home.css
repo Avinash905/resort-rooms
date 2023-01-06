@@ -1,0 +1,14 @@
+@import url(common.css);
+
+.home-section {
+  background-image: url("../assets/images/defaultBcg.jpeg");
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-section .banner {
+  height: 40%;
+  width: 50%;
+}

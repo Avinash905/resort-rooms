@@ -1,0 +1,36 @@
+@import url(common.css);
+
+.rooms-card {
+  width: 22%;
+  position: relative;
+  background-color: rgb(159, 159, 159);
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.rooms-card:hover {
+  box-shadow: var(--shadow);
+  transform: scale(1.01);
+}
+
+.rooms-card span {
+  position: absolute;
+  font-size: 0.8rem;
+  top: 0%;
+  left: 0%;
+  color: var(--white);
+  padding: 0.3rem;
+  border-radius: 0 0 20px 0;
+  text-align: center;
+  background-color: var(--black);
+}
+
+.rooms-card img {
+  width: 100%;
+}
+
+.rooms-card h3 {
+  text-align: center;
+  margin-bottom: 0.4rem;
+  text-transform: capitalize;
+}
